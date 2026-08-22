@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">BruniaHome</string>
+    <string name="settings_title">Cài đặt</string>
+    <string name="widgets">Tiện ích</string>
+    <string name="edit">Chỉnh sửa</string>
+    <string name="delete_widget">Xóa tiện ích</string>
+    <string name="nav_tab_widgets">Tiện ích</string>
+    <string name="nav_tab_apps">Ứng dụng</string>
+    <string name="nav_tab_settings">Cài đặt</string>
+    <string name="widgets_tab">Tiện ích</string>
+    <string name="drawer_tab">Ứng dụng</string>
+    <string name="settings_tab">Cài đặt</string>
+
+    <string name="search_hint">Tìm trong %1$d ứng dụng &amp; thiết bị…</string>
+    <string name="search_hint_empty">Tìm kiếm ứng dụng &amp; thiết bị…</string>
+    <string name="voice_search_prompt">Nói để tìm kiếm…</string>
+    <string name="voice_search_unavailable">Tìm kiếm giọng nói không khả dụng</string>
+    <string name="google_lens_desc">Tìm kiếm bằng Google Lens</string>
+    <string name="open_google_lens">Đang mở Google Lens</string>
+    <string name="no_apps_found">Không tìm thấy ứng dụng</string>
+    <string name="no_apps_found_desc">Thử tìm kiếm với từ khóa khác</string>
+
+    <string name="open_app">Mở ứng dụng</string>
+    <string name="app_info">Thông tin ứng dụng</string>
+    <string name="hide_app">Ẩn khỏi ngăn kéo</string>
+    <string name="uninstall">Gỡ cài đặt</string>
+    <string name="uninstall_system_app">Không thể gỡ ứng dụng hệ thống</string>
+
+    <string name="set_as_default_launcher">Màn hình chính mặc định</string>
+    <string name="set_as_default_launcher_desc">Đặt BruniaHome làm launcher chính của thiết bị</string>
+    <string name="set_default_button">Đặt mặc định</string>
+    <string name="already_default_launcher">BruniaHome đang là màn hình chính mặc định</string>
+    <string name="default_launcher_instruction">Vui lòng chọn BruniaHome trong cài đặt Màn hình chính</string>
+
+    <string name="theme_appearance">Giao diện &amp; Chủ đề</string>
+    <string name="dynamic_color_title">Màu sắc động (Material You)</string>
+    <string name="dynamic_color_desc">Tự động trích xuất màu sắc hài hòa từ hình nền</string>
+    <string name="monet_palette_title">Phong cách bảng màu Monet</string>
+    <string name="monet_tonal_spot">Tonal Spot (Mặc định)</string>
+    <string name="monet_vibrant">Vibrant (Sống động)</string>
+    <string name="monet_expressive">Expressive (Biểu cảm)</string>
+    <string name="monet_spritz">Spritz (Trung tính)</string>
+    <string name="monet_fruit_salad">Fruit Salad (Ấm áp)</string>
+
+    <string name="themed_icons_title">Biểu tượng theo chủ đề</string>
+    <string name="themed_icons_desc">Áp dụng màu Monet đơn sắc cho icon ứng dụng</string>
+    <string name="icon_shape_title">Hình dáng biểu tượng</string>
+    <string name="shape_circle">Tròn</string>
+    <string name="shape_squircle">Squircle</string>
+    <string name="shape_rounded_square">Vuông bo góc</string>
+    <string name="shape_teardrop">Giọt nước</string>
+    <string name="shape_system">Mặc định hệ thống</string>
+
+    <string name="theme_mode_title">Chế độ giao diện</string>
+    <string name="theme_system">Theo hệ thống</string>
+    <string name="theme_light">Sáng</string>
+    <string name="theme_dark">Tối</string>
+
+    <string name="app_drawer_grid">Lưới ngăn kéo ứng dụng</string>
+    <string name="grid_columns_title">Số cột hiển thị</string>
+    <string name="cols_4">4 Cột</string>
+    <string name="cols_5">5 Cột</string>
+    <string name="cols_6">6 Cột</string>
+    <string name="show_labels_title">Hiện tên ứng dụng</string>
+    <string name="show_labels_desc">Hiển thị nhãn văn bản dưới mỗi biểu tượng</string>
+
+    <string name="privacy_hidden_apps">Quyền riêng tư &amp; Ứng dụng ẩn</string>
+    <string name="hidden_apps_title">Ứng dụng đã ẩn (%1$d)</string>
+    <string name="hidden_apps_desc">Quản lý các ứng dụng đã ẩn khỏi ngăn kéo</string>
+    <string name="manage_hidden_apps">Quản lý</string>
+    <string name="no_hidden_apps">Không có ứng dụng nào bị ẩn</string>
+    <string name="unhide">Bỏ ẩn</string>
+    <string name="unhide_all">Bỏ ẩn tất cả</string>
+    <string name="close">Đóng</string>
+
+    <string name="pinned_apps">Ứng dụng đã ghim</string>
+    <string name="pin_app">Ghim lên đầu</string>
+    <string name="unpin_app">Bỏ ghim</string>
+
+    <string name="about_launcher">Thông tin ứng dụng</string>
+    <string name="launcher_description">Trình khởi chạy Android chuẩn Material Design 3</string>
+    <string name="version">Phiên bản 1.0.0</string>
+
+    <string name="add_widget">Thêm tiện ích</string>
+    <string name="system_and_app_widgets">Tiện ích Hệ thống &amp; Ứng dụng</string>
+    <string name="installed_widgets">Tiện ích ứng dụng đã cài đặt</string>
+    <string name="smart_companion_widgets">Thẻ tiện ích thông minh</string>
+    <string name="remove_widget">Xóa tiện ích</string>
+    <string name="resize_widget">Đổi kích thước</string>
+    <string name="no_widgets_on_board">Chưa có tiện ích nào trên bảng</string>
+    <string name="tap_plus_to_add_widgets">Nhấn nút bên dưới để thêm tiện ích của hệ thống hoặc app</string>
+    <string name="widget_clock_title">Đồng hồ Material</string>
+    <string name="widget_toggles_title">Phím tắt nhanh</string>
+    <string name="widget_media_title">Trình phát nhạc</string>
+    <string name="widget_notes_title">Ghi chú nhanh</string>
+    <string name="widget_battery_title">Pin &amp; Thiết bị</string>
+    <string name="widget_at_a_glance_title">Xem nhanh (At a Glance)</string>
+    <string name="widget_weather_title">Dự báo thời tiết</string>
+    <string name="add_note_hint">Thêm việc cần làm…</string>
+    <string name="add_note">Thêm</string>
+    <string name="cant_bind_widget">Không thể liên kết tiện ích</string>
+    <string name="select_widget">Chọn tiện ích</string>
+    <string name="search_widgets">Tìm tiện ích…</string>
+</resources>

@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">BruniaHome</string>
+    <string name="settings_title">Ajustes</string>
+    <string name="widgets">Widgets</string>
+    <string name="edit">Editar</string>
+    <string name="delete_widget">Eliminar widget</string>
+    <string name="nav_tab_widgets">Widgets</string>
+    <string name="nav_tab_apps">Aplicaciones</string>
+    <string name="nav_tab_settings">Ajustes</string>
+    <string name="widgets_tab">Widgets</string>
+    <string name="drawer_tab">Aplicaciones</string>
+    <string name="settings_tab">Ajustes</string>
+
+    <string name="search_hint">Buscar en %1$d aplicaciones…</string>
+    <string name="search_hint_empty">Buscar aplicaciones y dispositivo…</string>
+    <string name="voice_search_prompt">Habla para buscar…</string>
+    <string name="voice_search_unavailable">Búsqueda por voz no disponible</string>
+    <string name="google_lens_desc">Buscar con Lens</string>
+    <string name="open_google_lens">Abriendo Google Lens</string>
+    <string name="no_apps_found">No se encontraron aplicaciones</string>
+    <string name="no_apps_found_desc">Intenta buscar con otra palabra</string>
+
+    <string name="open_app">Abrir</string>
+    <string name="app_info">Info de la aplicación</string>
+    <string name="hide_app">Ocultar del cajón</string>
+    <string name="uninstall">Desinstalar</string>
+    <string name="uninstall_system_app">Las aplicaciones del sistema no se pueden desinstalar</string>
+
+    <string name="set_as_default_launcher">Lanzador predeterminado</string>
+    <string name="set_as_default_launcher_desc">Establecer BruniaHome como pantalla de inicio predeterminada</string>
+    <string name="set_default_button">Establecer</string>
+    <string name="already_default_launcher">BruniaHome ya es tu pantalla de inicio predeterminada</string>
+    <string name="default_launcher_instruction">Selecciona BruniaHome en los ajustes de pantalla de inicio</string>
+
+    <string name="theme_appearance">Tema y Apariencia</string>
+    <string name="dynamic_color_title">Color dinámico (Material You)</string>
+    <string name="dynamic_color_desc">Extrae colores dinámicamente del fondo de pantalla</string>
+    <string name="monet_palette_title">Estilo de paleta Monet</string>
+    <string name="monet_tonal_spot">Tonal Spot</string>
+    <string name="monet_vibrant">Vibrant</string>
+    <string name="monet_expressive">Expressive</string>
+    <string name="monet_spritz">Spritz</string>
+    <string name="monet_fruit_salad">Fruit Salad</string>
+
+    <string name="themed_icons_title">Iconos temáticos</string>
+    <string name="themed_icons_desc">Aplica tonos Monet a los iconos de las aplicaciones</string>
+    <string name="icon_shape_title">Forma de los iconos</string>
+    <string name="shape_circle">Círculo</string>
+    <string name="shape_squircle">Squircle</string>
+    <string name="shape_rounded_square">Cuadrado redondeado</string>
+    <string name="shape_teardrop">Gota de agua</string>
+    <string name="shape_system">Predeterminado del sistema</string>
+
+    <string name="theme_mode_title">Modo de tema</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+
+    <string name="app_drawer_grid">Cuadrícula del cajón</string>
+    <string name="grid_columns_title">Columnas por fila</string>
+    <string name="cols_4">4 Columnas</string>
+    <string name="cols_5">5 Columnas</string>
+    <string name="cols_6">6 Columnas</string>
+    <string name="show_labels_title">Mostrar nombres de apps</string>
+    <string name="show_labels_desc">Mostrar el texto debajo de cada icono</string>
+
+    <string name="privacy_hidden_apps">Privacidad y Apps ocultas</string>
+    <string name="hidden_apps_title">Apps ocultas (%1$d)</string>
+    <string name="hidden_apps_desc">Gestionar aplicaciones ocultas del cajón</string>
+    <string name="manage_hidden_apps">Gestionar</string>
+    <string name="no_hidden_apps">No hay aplicaciones ocultas</string>
+    <string name="unhide">Mostrar</string>
+    <string name="unhide_all">Mostrar todas</string>
+    <string name="close">Cerrar</string>
+
+    <string name="pinned_apps">Apps fijadas</string>
+    <string name="pin_app">Fijar arriba</string>
+    <string name="unpin_app">Desfijar</string>
+
+    <string name="about_launcher">Acerca de</string>
+    <string name="launcher_description">Lanzador Android Material Design 3</string>
+    <string name="version">Versión 1.0.0</string>
+
+    <string name="add_widget">Añadir widget</string>
+    <string name="system_and_app_widgets">Widgets del sistema y apps</string>
+    <string name="installed_widgets">Widgets de apps instaladas</string>
+    <string name="smart_companion_widgets">Tarjetas inteligentes</string>
+    <string name="remove_widget">Eliminar widget</string>
+    <string name="resize_widget">Redimensionar</string>
+    <string name="no_widgets_on_board">No hay widgets añadidos</string>
+    <string name="tap_plus_to_add_widgets">Toca el botón inferior para añadir widgets</string>
+    <string name="widget_clock_title">Reloj Material</string>
+    <string name="widget_toggles_title">Accesos rápidos</string>
+    <string name="widget_media_title">Reproductor de música</string>
+    <string name="widget_notes_title">Notas rápidas</string>
+    <string name="widget_battery_title">Batería y Dispositivo</string>
+    <string name="widget_at_a_glance_title">De un vistazo</string>
+    <string name="widget_weather_title">Pronóstico del tiempo</string>
+    <string name="add_note_hint">Escribe una nota…</string>
+    <string name="add_note">Añadir</string>
+    <string name="cant_bind_widget">No se pudo vincular el widget</string>
+    <string name="select_widget">Seleccionar widget</string>
+    <string name="search_widgets">Buscar widgets…</string>
+</resources>

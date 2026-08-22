@@ -1,0 +1,6 @@
+{
+  "name": "BruniaHome",
+  "description": "Pixel-style Material You Android Launcher with dynamic Monet theming, App Drawer home, customizable widget board, and settings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

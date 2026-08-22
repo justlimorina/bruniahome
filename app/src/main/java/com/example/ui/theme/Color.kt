@@ -1,0 +1,57 @@
+package com.example.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+// Pixel Botanical (Sage & Emerald)
+val BotanicalPrimaryLight = Color(0xFF2E6B4F)
+val BotanicalOnPrimaryLight = Color(0xFFFFFFFF)
+val BotanicalPrimaryContainerLight = Color(0xFFB1F2CF)
+val BotanicalOnPrimaryContainerLight = Color(0xFF002114)
+val BotanicalSecondaryLight = Color(0xFF4E6355)
+val BotanicalSecondaryContainerLight = Color(0xFFD1E8D7)
+val BotanicalSurfaceLight = Color(0xFFF5FAF3)
+val BotanicalSurfaceVariantLight = Color(0xFFDCE5DD)
+val BotanicalBackgroundLight = Color(0xFFF5FAF3)
+
+val BotanicalPrimaryDark = Color(0xFF96D5B4)
+val BotanicalOnPrimaryDark = Color(0xFF003823)
+val BotanicalPrimaryContainerDark = Color(0xFF135238)
+val BotanicalOnPrimaryContainerDark = Color(0xFFB1F2CF)
+val BotanicalSecondaryDark = Color(0xFFB5CCBC)
+val BotanicalSecondaryContainerDark = Color(0xFF374B3E)
+val BotanicalSurfaceDark = Color(0xFF101412)
+val BotanicalSurfaceVariantDark = Color(0xFF414943)
+val BotanicalBackgroundDark = Color(0xFF101412)
+
+// Solar Amber (Warm Gold)
+val AmberPrimaryLight = Color(0xFF7A5900)
+val AmberPrimaryContainerLight = Color(0xFFFFDEA0)
+val AmberSecondaryLight = Color(0xFF6C5D3F)
+val AmberSurfaceLight = Color(0xFFFFF9EE)
+val AmberPrimaryDark = Color(0xFFF6BE48)
+val AmberPrimaryContainerDark = Color(0xFF5D4200)
+val AmberSurfaceDark = Color(0xFF16130B)
+
+// Lavender Mist (Pastel Violet)
+val LavenderPrimaryLight = Color(0xFF684FA3)
+val LavenderPrimaryContainerLight = Color(0xFFEADBFF)
+val LavenderSecondaryLight = Color(0xFF635B70)
+val LavenderSurfaceLight = Color(0xFFFCF7FF)
+val LavenderPrimaryDark = Color(0xFFD2BCFF)
+val LavenderPrimaryContainerDark = Color(0xFF50378A)
+val LavenderSurfaceDark = Color(0xFF15121B)
+
+// Ocean Indigo (Cyan & Deep Blue)
+val OceanPrimaryLight = Color(0xFF006494)
+val OceanPrimaryContainerLight = Color(0xFFCBE6FF)
+val OceanSecondaryLight = Color(0xFF4F6070)
+val OceanSurfaceLight = Color(0xFFF6FAFE)
+val OceanPrimaryDark = Color(0xFF8FCDFF)
+val OceanPrimaryContainerDark = Color(0xFF004B72)
+val OceanSurfaceDark = Color(0xFF0F1419)
+
+// General Monochromatic & Themed Icon Colors
+val ThemedIconBgLight = Color(0xFFD1E8D7)
+val ThemedIconFgLight = Color(0xFF002114)
+val ThemedIconBgDark = Color(0xFF1F3529)
+val ThemedIconFgDark = Color(0xFFB1F2CF)

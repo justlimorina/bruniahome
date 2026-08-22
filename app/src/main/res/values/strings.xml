@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">BruniaHome</string>
+    <string name="settings_title">Settings</string>
+    <string name="widgets">Widgets</string>
+    <string name="edit">Edit</string>
+    <string name="delete_widget">Delete widget</string>
+    <string name="nav_tab_widgets">Widgets</string>
+    <string name="nav_tab_apps">Apps</string>
+    <string name="nav_tab_settings">Settings</string>
+    <string name="widgets_tab">Widgets</string>
+    <string name="drawer_tab">Apps</string>
+    <string name="settings_tab">Settings</string>
+
+    <string name="search_hint">Search %1$d apps &amp; device…</string>
+    <string name="search_hint_empty">Search apps &amp; device…</string>
+    <string name="voice_search_prompt">Speak to search…</string>
+    <string name="voice_search_unavailable">Voice search is not available</string>
+    <string name="google_lens_desc">Search with Lens</string>
+    <string name="open_google_lens">Opening Google Lens</string>
+    <string name="no_apps_found">No apps found</string>
+    <string name="no_apps_found_desc">Try searching with a different keyword</string>
+
+    <string name="open_app">Open</string>
+    <string name="app_info">App info</string>
+    <string name="hide_app">Hide from Drawer</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="uninstall_system_app">System apps cannot be uninstalled</string>
+
+    <string name="set_as_default_launcher">Default Home App</string>
+    <string name="set_as_default_launcher_desc">Set BruniaHome as your default home launcher</string>
+    <string name="set_default_button">Set as default</string>
+    <string name="already_default_launcher">BruniaHome is already your default launcher</string>
+    <string name="default_launcher_instruction">Please select BruniaHome in the Home app settings</string>
+
+    <string name="theme_appearance">Theme &amp; Appearance</string>
+    <string name="dynamic_color_title">Dynamic Color (Material You)</string>
+    <string name="dynamic_color_desc">Extract palette colors dynamically from wallpaper</string>
+    <string name="monet_palette_title">Accent Palette Style</string>
+    <string name="monet_tonal_spot">Tonal Spot</string>
+    <string name="monet_vibrant">Vibrant</string>
+    <string name="monet_expressive">Expressive</string>
+    <string name="monet_spritz">Spritz (Neutral)</string>
+    <string name="monet_fruit_salad">Fruit Salad</string>
+
+    <string name="themed_icons_title">Themed Icons</string>
+    <string name="themed_icons_desc">Apply system Monet color scheme to app icons</string>
+    <string name="icon_shape_title">Icon Shape</string>
+    <string name="shape_circle">Circle</string>
+    <string name="shape_squircle">Squircle</string>
+    <string name="shape_rounded_square">Rounded Square</string>
+    <string name="shape_teardrop">Teardrop</string>
+    <string name="shape_system">System Default</string>
+
+    <string name="theme_mode_title">App Theme Mode</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <string name="app_drawer_grid">App Drawer Grid</string>
+    <string name="grid_columns_title">Columns per row</string>
+    <string name="cols_4">4 Columns</string>
+    <string name="cols_5">5 Columns</string>
+    <string name="cols_6">6 Columns</string>
+    <string name="show_labels_title">Show App Labels</string>
+    <string name="show_labels_desc">Display application names beneath icons</string>
+
+    <string name="privacy_hidden_apps">Privacy &amp; Hidden Apps</string>
+    <string name="hidden_apps_title">Hidden Apps (%1$d)</string>
+    <string name="hidden_apps_desc">Manage applications hidden from the drawer</string>
+    <string name="manage_hidden_apps">Manage</string>
+    <string name="no_hidden_apps">No hidden applications</string>
+    <string name="unhide">Unhide</string>
+    <string name="unhide_all">Unhide All</string>
+    <string name="close">Close</string>
+
+    <string name="pinned_apps">Pinned Apps</string>
+    <string name="pin_app">Pin to top</string>
+    <string name="unpin_app">Unpin from top</string>
+
+    <string name="about_launcher">About</string>
+    <string name="launcher_description">Material Design 3 Android Launcher</string>
+    <string name="version">Version 1.0.0</string>
+
+    <string name="add_widget">Add Widget</string>
+    <string name="system_and_app_widgets">System &amp; App Widgets</string>
+    <string name="installed_widgets">Installed App Widgets</string>
+    <string name="smart_companion_widgets">Smart Companion Cards</string>
+    <string name="remove_widget">Remove Widget</string>
+    <string name="resize_widget">Resize</string>
+    <string name="no_widgets_on_board">No widgets added yet</string>
+    <string name="tap_plus_to_add_widgets">Tap the button below to add system or app widgets</string>
+    <string name="widget_clock_title">Material Clock</string>
+    <string name="widget_toggles_title">Quick Toggles</string>
+    <string name="widget_media_title">Media Player</string>
+    <string name="widget_notes_title">Quick Notes</string>
+    <string name="widget_battery_title">Battery &amp; Device</string>
+    <string name="widget_at_a_glance_title">At a Glance</string>
+    <string name="widget_weather_title">Weather Forecast</string>
+    <string name="add_note_hint">Write a new note…</string>
+    <string name="add_note">Add</string>
+    <string name="cant_bind_widget">Could not bind widget</string>
+    <string name="select_widget">Select a Widget</string>
+    <string name="search_widgets">Search widgets…</string>
+</resources>

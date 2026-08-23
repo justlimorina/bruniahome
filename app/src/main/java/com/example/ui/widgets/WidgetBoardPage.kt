@@ -15,6 +15,7 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
@@ -282,6 +283,12 @@ private fun SystemAppWidgetHostContainer(
         AppWidgetHostManager.findProviderInfo(context, widget.providerPackage, widget.providerClass)
     }
 
+    val widgetHeightDp = remember(widget.spanY, providerInfo?.minHeight) {
+        val baseFromSpan = (widget.spanY * 95).coerceIn(160, 480)
+        val fromMin = providerInfo?.minHeight ?: 0
+        if (fromMin > 0) maxOf(baseFromSpan, fromMin) else baseFromSpan
+    }
+
     Surface(
         shape = RoundedCornerShape(28.dp),
         color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.85f),
@@ -295,15 +302,33 @@ private fun SystemAppWidgetHostContainer(
                 factory = { ctx ->
                     val host = AppWidgetHostManager.getHost(ctx)
                     val hostView = host.createView(ctx, widget.appWidgetId, providerInfo)
+                    hostView.setAppWidget(widget.appWidgetId, providerInfo)
+                    
+                    // Push size options to the widget provider
+                    val density = ctx.resources.displayMetrics.density
+                    val heightPx = (widgetHeightDp * density).toInt()
+                    val widthPx = ctx.resources.displayMetrics.widthPixels
                     hostView.layoutParams = FrameLayout.LayoutParams(
                         ViewGroup.LayoutParams.MATCH_PARENT,
-                        ViewGroup.LayoutParams.WRAP_CONTENT
+                        heightPx
                     )
+                    val options = android.os.Bundle().apply {
+                        putInt(android.appwidget.AppWidgetManager.OPTION_APPWIDGET_MIN_WIDTH, providerInfo.minWidth)
+                        putInt(android.appwidget.AppWidgetManager.OPTION_APPWIDGET_MIN_HEIGHT, widgetHeightDp)
+                        putInt(android.appwidget.AppWidgetManager.OPTION_APPWIDGET_MAX_WIDTH, 500)
+                        putInt(android.appwidget.AppWidgetManager.OPTION_APPWIDGET_MAX_HEIGHT, widgetHeightDp)
+                    }
+                    try {
+                        android.appwidget.AppWidgetManager.getInstance(ctx)?.updateAppWidgetOptions(widget.appWidgetId, options)
+                    } catch (e: Exception) {
+                        // Ignore
+                    }
                     hostView
                 },
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(8.dp)
+                    .height(widgetHeightDp.dp)
+                    .padding(6.dp)
             )
         } else {
             // Fallback display if provider is not reachable

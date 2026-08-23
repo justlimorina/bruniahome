@@ -77,15 +77,25 @@ object AppWidgetHostManager {
         providerInfo: AppWidgetProviderInfo,
         options: Bundle? = null
     ): Boolean {
-        val manager = AppWidgetManager.getInstance(context)
+        val manager = AppWidgetManager.getInstance(context) ?: return false
+        val bundle = options ?: Bundle().apply {
+            putInt(AppWidgetManager.OPTION_APPWIDGET_MIN_WIDTH, providerInfo.minWidth)
+            putInt(AppWidgetManager.OPTION_APPWIDGET_MIN_HEIGHT, providerInfo.minHeight)
+            putInt(AppWidgetManager.OPTION_APPWIDGET_MAX_WIDTH, 500)
+            putInt(AppWidgetManager.OPTION_APPWIDGET_MAX_HEIGHT, 500)
+        }
         return try {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                manager.bindAppWidgetIdIfAllowed(
+                val bound = manager.bindAppWidgetIdIfAllowed(
                     appWidgetId,
                     providerInfo.profile,
                     providerInfo.provider,
-                    options
+                    bundle
                 )
+                if (bound) {
+                    manager.updateAppWidgetOptions(appWidgetId, bundle)
+                }
+                bound
             } else {
                 manager.bindAppWidgetIdIfAllowed(appWidgetId, providerInfo.provider)
             }
